@@ -10,7 +10,7 @@ from mlxtend.plotting import plot_decision_regions
 from PIL import Image
 
 # Load image for visualization
-Hyp = Image.open(r"C:\Users\RAGHAVENDRA KUMAR\Downloads\Hyperparameter.jpg")
+Hyp = Image.open("Hyperparameter.jpg")
 st.image(Hyp, use_column_width=False)
 
 # Title and file uploader
